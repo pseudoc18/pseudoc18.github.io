@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /about
-subtitle: CS PhD candidate working on capable and safe LLMs and MLLMs
+subtitle:
 
 profile:
   align: right

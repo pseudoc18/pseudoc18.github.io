@@ -360,6 +360,8 @@ blockquote {
 }
 
 .news {
+  margin-bottom: 2.4rem;
+
   .news-card {
     border: 1px solid var(--global-divider-color);
     border-radius: 18px;
@@ -412,6 +414,24 @@ blockquote {
       vertical-align: top;
       line-height: 1.55;
     }
+  }
+}
+
+.post article h2 {
+  margin-top: 2.25rem;
+  margin-bottom: 1rem;
+}
+
+.post article .links {
+  .paper-link {
+    margin-right: 0.6rem;
+    color: var(--global-theme-color);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .paper-link:hover {
+    text-decoration: underline;
   }
 }
 
