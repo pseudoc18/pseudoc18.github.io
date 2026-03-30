@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Michelingweo.github.io/about/sitemap.xml
+Sitemap: https://pseudoc18.github.io/sitemap.xml
