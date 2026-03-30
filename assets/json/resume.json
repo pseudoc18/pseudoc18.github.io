@@ -65,14 +65,44 @@
     {
       "title": "Rutgers University DCS Graduate Fellowship",
       "date": "2025-01-01",
+      "displayDate": "2025",
       "awarder": "Rutgers University",
       "summary": "$20,000 fellowship."
     },
     {
       "title": "NSF Travel Grant for ICCV",
       "date": "2025-01-01",
+      "displayDate": "2025",
       "awarder": "NSF",
       "summary": "$1,000 travel grant."
+    },
+    {
+      "title": "Lixin Tang Scholarship",
+      "date": "2021-01-01",
+      "displayDate": "2021",
+      "awarder": "UESTC",
+      "summary": "Top 1%, ranked 60 out of 50,000."
+    },
+    {
+      "title": "UESTC Outstanding Leadership Scholarship",
+      "date": "2017-01-01",
+      "displayDate": "2017-2020",
+      "awarder": "UESTC",
+      "summary": "Top 5%."
+    },
+    {
+      "title": "UESTC Excellent Student Scholarship",
+      "date": "2017-01-01",
+      "displayDate": "2017-2020",
+      "awarder": "UESTC",
+      "summary": "Top 5%."
+    },
+    {
+      "title": "UESTC Liren Scholarship",
+      "date": "2018-01-01",
+      "displayDate": "2018",
+      "awarder": "UESTC",
+      "summary": "Top 2.5%."
     }
   ],
   "certificates": [],

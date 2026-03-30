@@ -10,6 +10,46 @@ table.table-cv {
   background-color: transparent !important;
 }
 
+.resume-card-item {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.resume-date-col {
+  width: 112px;
+  max-width: 112px;
+  flex: 0 0 112px;
+}
+
+.resume-date-badge {
+  min-width: 92px;
+  line-height: 1.25;
+  padding: 0.45rem 0.6rem;
+}
+
+.resume-content-col {
+  padding-left: 0.8rem;
+}
+
+.resume-entry-title {
+  margin-left: 0 !important;
+  margin-bottom: 0.3rem;
+}
+
+.resume-entry-subtitle {
+  margin-left: 0 !important;
+  margin-bottom: 0.28rem;
+  font-size: 0.98rem !important;
+}
+
+.resume-entry-meta {
+  margin-left: 0 !important;
+  margin-bottom: 0;
+  font-size: 0.95rem !important;
+  font-style: italic;
+  line-height: 1.45;
+}
+
 a.btncv {
   color: var(--global-text-color) !important;
   border: 1px solid var(--global-text-color) !important;
