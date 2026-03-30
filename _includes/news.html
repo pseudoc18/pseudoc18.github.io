@@ -1,6 +1,7 @@
           <div class="news">
             {% if site.news != blank -%}
             {%- assign news_size = site.news | size -%}
+            <div class="news-card">
             <div class="table-responsive news-scroll">
               <table class="table table-sm table-borderless news-table">
               {%- assign news = site.news | reverse -%}
@@ -28,6 +29,7 @@
                 </tr>
               {%- endfor %}
               </table>
+            </div>
             </div>
           {%- else -%}
             <p>No news so far...</p>
