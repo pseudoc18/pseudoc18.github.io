@@ -2,96 +2,77 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Liwei Che
+    - name: Email
+      value: levi.liweiche@gmail.com
+    - name: Phone
+      value: +1-814-996-9630
+    - name: Location
+      value: Piscataway, NJ, USA
+    - name: Research Interests
+      value: LLMs, MLLMs, hallucination mitigation, visual reasoning, post-training
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computer Science
+      institution: Rutgers University
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Advisor: Vladimir Pavlovic.
+        - Research on capable and safe LLMs and MLLMs.
+    - title: M.S. in Informatics
+      institution: Pennsylvania State University
+      year: 2021 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - GPA: 3.89/4.00.
+    - title: B.Eng. in Electronic Information Engineering
+      institution: University of Electronic Science and Technology of China
+      year: 2017 - 2021
+      description:
+        - GPA: 3.78/4.00.
 
-- title: Experience
+- title: Professional Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Visiting Student
+      institution: University of Washington and Allen AI
+      year: 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Worked on mechanistic understanding of vision-language models for visual reasoning.
+    - title: Applied Scientist II Intern
+      institution: Amazon
+      year: 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Built large-scale generative retrieval training systems and improved recommendation recall.
+    - title: Applied Scientist II Intern
+      institution: Amazon
+      year: 2024
       description:
+        - Developed contextual customer embeddings and benchmarking for product and text representations.
+    - title: Teaching Assistant
+      institution: Rutgers University and Pennsylvania State University
+      year: 2021 - Present
+      description:
+        - Supported courses in data management, data science foundations, privacy, and discrete mathematics.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Research Areas
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: LLM / MLLM Research
       items:
-        - Description 1.
-        - Description 2.
+        - Hallucination mitigation and safety
+        - Visual reasoning and mechanistic interpretability
+        - Post-training with RL and SFT
+    - title: Earlier Machine Learning Work
+      items:
+        - Federated and multimodal learning
+        - Semi-supervised and adaptive learning
 
-- title: Other Interests
+- title: Links
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <a href="https://scholar.google.com/citations?user=wrQ-S_IAAAAJ&hl=en">Google Scholar</a>
+    - <a href="https://www.linkedin.com/in/liweiche/">LinkedIn</a>
+    - <a href="https://pseudoc18.github.io">Homepage</a>
+    - <a href="mailto:levi.liweiche@gmail.com">Email</a>

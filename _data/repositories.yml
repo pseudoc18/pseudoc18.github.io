@@ -1,12 +1,5 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - pseudoc18
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - pseudoc18/pseudoc18.github.io

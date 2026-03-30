@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 4
 cv_pdf: resume_liweiche.pdf
-description: The resume of Liwei Che
+description: Curriculum vitae and downloadable resume.
 toc:
   sidebar: left
 ---
