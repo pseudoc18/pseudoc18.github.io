@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am Liwei Che, a PhD candidate in Computer Science at Rutgers University, advised by Dr. Vladimir Pavlovic.
+I am Liwei Che, a PhD candidate in Computer Science at Rutgers University, advised by [Prof. Vladimir Pavlovic](https://openreview.net/profile?id=%7EVladimir_Pavlovic2).
 
 My current research focuses on improving the **general-purpose capabilities** and **safety** of **LLMs / MLLMs**. I am especially interested in hallucination mitigation, visual reasoning, mechanistic understanding of multimodal models, and post-training techniques including RL and SFT.
 
