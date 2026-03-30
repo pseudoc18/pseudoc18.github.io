@@ -1,8 +1,8 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% for content in data[1] %}
   <li class="list-group-item resume-card-item">
-    <div class="row">
-      <div class="col-xs-2 cl-sm-2 col-md-2 text-center resume-date-col">
+    <div class="resume-entry-row">
+      <div class="resume-date-col">
         {% if content.displayDate %}
         {% assign date = content.displayDate %}
         {% elsif content.date %}
@@ -14,7 +14,7 @@
           {{ date }}
         </span>
       </div>
-      <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0 resume-content-col">
+      <div class="resume-content-col">
         <h6 class="title font-weight-bold resume-entry-title"><a href="{{ content.url }}">{{content.title}}</a></h6>
         <h6 class="resume-entry-subtitle">{{content.awarder}}</h6>
         <h6 class="resume-entry-meta">{{content.summary}}</h6>

@@ -2,8 +2,8 @@
   {% assign education = data[1] | sort: 'startDate' | reverse %}
   {% for content in education %}
   <li class="list-group-item resume-card-item">
-    <div class="row">
-      <div class="col-xs-2 cl-sm-2 col-md-2 text-center resume-date-col">
+    <div class="resume-entry-row">
+      <div class="resume-date-col">
         {% if content.startDate and content.startDate!="" %}
         {% assign startDate = content.startDate | split: "-" | slice: 0,2 | join: "." %}
         {% assign endDate   = content.endDate   | split: "-" | slice: 0,2 | join: "." | default: "Present" %}
@@ -33,7 +33,7 @@
           </tbody>
         </table>
       </div>
-      <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0 resume-content-col">
+      <div class="resume-content-col">
         <h6 class="title font-weight-bold resume-entry-title"><a href="{{ content.url }}">{{content.studyType}}</a></h6>
         <h6 class="resume-entry-subtitle">{{content.institution}}</h6>
         <h6 class="resume-entry-meta">{{content.area}}</h6>
