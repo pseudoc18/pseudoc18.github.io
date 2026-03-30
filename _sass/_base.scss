@@ -127,6 +127,39 @@ blockquote {
       margin: 0;
     }
   }
+
+  .profile-social {
+    margin-top: 0.9rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    align-items: center;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.15rem;
+      height: 2.15rem;
+      border-radius: 999px;
+      border: 1px solid var(--global-divider-color);
+      background: var(--global-card-bg-color);
+      text-decoration: none;
+
+      i::before {
+        color: var(--global-text-color);
+        transition: color 0.2s ease-in-out;
+      }
+
+      &:hover {
+        border-color: var(--global-theme-color);
+
+        i::before {
+          color: var(--global-theme-color);
+        }
+      }
+    }
+  }
 }
 
 .profile.float-right {
@@ -323,6 +356,31 @@ blockquote {
 
   .contact-note {
     font-size: 0.8rem;
+  }
+}
+
+.news {
+  .news-scroll {
+    max-height: 22rem;
+    overflow-y: auto;
+    padding: 0.35rem 0.15rem 0.35rem 0;
+  }
+
+  .news-table {
+    table-layout: fixed;
+    margin-bottom: 0;
+
+    th {
+      width: 9.5rem;
+      min-width: 9.5rem;
+      padding-right: 1rem;
+      white-space: nowrap;
+      vertical-align: top;
+    }
+
+    td {
+      vertical-align: top;
+    }
   }
 }
 
