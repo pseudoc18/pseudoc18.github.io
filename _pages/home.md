@@ -18,9 +18,10 @@ social: true  # includes social icons at the bottom of the page
 
 I am currently a PhD student in Computer Science at Rutgers University, advised by [Prof. Vladimir Pavlovic](https://openreview.net/profile?id=%7EVladimir_Pavlovic2). I also work closely with [Prof. Ruixiang Tang](https://www.ruixiangtang.net/) from Rutgers and [Prof. Ranjay Krishna](https://www.ranjaykrishna.com/index.html) from UW. My recent work focuses on improving the general-purpose capabilities and safety of LLMs / MLLMs, with particular interests in hallucination mitigation, visual reasoning, and post-training methods.
 
-## Research Interest
+I previously worked as an Applied Scientist Intern at both Amazon Retail and Amazon Ads, where I was fortunate to be mentored by [Wenyi Wu](https://www.linkedin.com/in/wenyi-wu-aa563a77/), [Ming Wang](https://www.linkedin.com/in/ming-wang-16404268/), and [Samarth Gupta](https://sidsamarth.github.io/). My internship projects focused on MLLM-based embedding retrieval and large-scale training of generative retrieval models for personalized ads recommendation. Through this work, I gained hands-on experience with end-to-end data pipelines and large-scale distributed training, and the projects contributed to Amazon production systems and led to two papers at the Amazon Machine Learning Conference (AMLC).
 
-- LLM / MLLM capability improvement and post-training
-- Object hallucination detection and mitigation in LVLMs
+## Research Interest
 - Visual reasoning and mechanistic interpretability for vision-language models
+- LLM / MLLM safety alignment and post-training
+- Hallucination detection and mitigation in LVLMs
 - Earlier work on federated, multimodal, and semi-supervised learning
