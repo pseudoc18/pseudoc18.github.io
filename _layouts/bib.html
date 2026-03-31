@@ -137,13 +137,13 @@
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.paper %}
-            <a href="{{ entry.paper }}" class="paper-link" role="button">[paper]</a>
+            <a href="{{ entry.paper }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
           {%- elsif entry.url %}
-            <a href="{{ entry.url }}" class="paper-link" role="button">[paper]</a>
+            <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
           {%- elsif entry.doi %}
-            <a href="https://doi.org/{{ entry.doi }}" class="paper-link" role="button">[paper]</a>
+            <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
           {%- elsif entry.eprint %}
-            <a href="https://arxiv.org/abs/{{ entry.eprint }}" class="paper-link" role="button">[paper]</a>
+            <a href="https://arxiv.org/abs/{{ entry.eprint }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
           {%- endif %}
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
